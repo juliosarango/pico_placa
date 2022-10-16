@@ -1,4 +1,4 @@
-# Pico y Placa Prdictor
+# Pico y Placa Predictor
 
 API para consultar si se encuentra dentro del período de pico y placa en el distrito metropolitano de Quito
 
@@ -43,7 +43,7 @@ Las horas en las cuales se aplica el pico y placa son:
 1.Clonar el repositorio
 
 ```
-git clone 
+git clone https://github.com/juliosarango/pico_placa.git
 ```
 
 2.Instalar las dependencias
