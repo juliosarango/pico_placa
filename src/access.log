@@ -3,3 +3,6 @@
 ::1 - - [15/Oct/2022:02:44:47 +0000] "GET /posts HTTP/1.1" 200 24531
 ::1 - - [15/Oct/2022:02:44:48 +0000] "GET /posts HTTP/1.1" 200 24531
 ::1 - - [15/Oct/2022:02:44:51 +0000] "GET /postsdsd HTTP/1.1" 404 23
+::ffff:127.0.0.1 - - [16/Oct/2022:22:30:07 +0000] "POST /api/v1/predictor/ HTTP/1.1" 200 161 "-" "insomnia/2022.6.0"
+::1 - - [16/Oct/2022:22:30:25 +0000] "POST /api/v1/predictor/ HTTP/1.1" 500 211 "-" "PostmanRuntime/7.29.2"
+::ffff:127.0.0.1 - - [16/Oct/2022:22:32:44 +0000] "POST /api/v1/predictor HTTP/1.1" 200 161 "http://localhost:3000/docs/" "Mozilla/5.0 (X11; Fedora; Linux x86_64; rv:100.0) Gecko/20100101 Firefox/100.0"
