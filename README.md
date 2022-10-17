@@ -26,9 +26,18 @@ Las horas en las cuales se aplica el pico y placa son:
 
 ### Datos de ingreso
 
-- Número de placa: String de 7 caracteres, sin guión. Ejm: ACB12345
-- Fecha: String de 10 caracteres separados por guión. Ejm 2022-10-15
-- Hora: String entre 5 y 8 caracteres separados por dos puntos. Ejm 12:25 ó 12:25:00
+- licence_plate: String de 7 caracteres, sin guión. Ejm: ACB12345
+- date: String de 10 caracteres separados por guión. Ejm 2022-10-15
+- time: String entre 5 y 8 caracteres separados por dos puntos. Ejm 12:25 ó 12:25:00
+
+Estos datos deben ser enviados en formato json en el body con una petición POST
+```
+{
+"licence_plate": "abc1234",
+"date": "2022-19-15",
+"time": "09:20"
+}
+```
 
 ### Con los datos ingresados, se puede obtener los siguientes resultados:
 
